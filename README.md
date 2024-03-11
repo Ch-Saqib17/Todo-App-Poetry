@@ -20,7 +20,6 @@ First Follow this github steps
 
 `poetry new todo`
 
-[poetry new todo](https://)
 
 2.Install Dependencies:
 
@@ -35,7 +34,9 @@ First Follow this github steps
         Open your terminal and navigate to the project directory.
         Run pip install fastapi python-dotenv uvicorn (add sqlmodel if needed).
 
-Create a Simple API:
+`poetry add fastapi sqlmodel python-dotenv uvicorn`
+
+3.Create a Simple API:
 
     Open the main.py file (or create it if you didn't use Poetry).
     Paste the following code:
@@ -58,7 +59,7 @@ Use code with caution.
         The @app.get("/") decorator defines a route that handles GET requests to the root path (/).
         The asynchronous function root simply returns a dictionary with a "message" key and the value "Hello, World!".
 
-Run the API (Uvicorn Server):
+4.Run the API (Uvicorn Server):
 
     Open your terminal and navigate to the directory containing the main.py file.
     Run the following command to start the Uvicorn server using hot reloading (automatically restarts when you make changes to the code):
@@ -71,12 +72,12 @@ Use code with caution.
 
         You should see output in the terminal indicating the server is running (e.g., "Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)").
 
-    Test the API:
+5.Test the API:
         Open a web browser and navigate to http://127.0.0.1:8000/ (replace with your IP address if accessing from a different device).
         You should see a JSON response in the browser with the message "Hello, World!".
 
-    Stop the Server:
-        Press Ctrl+C in your terminal window to stop the Uvicorn server.
+6.Stop the Server:
+     Press Ctrl+C in your terminal window to stop the Uvicorn server.
 
 Additional Tips:
 
