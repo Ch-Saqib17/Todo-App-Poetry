@@ -20,6 +20,8 @@ First Follow this github steps
 
 `poetry new todo`
 
+[poetry new todo](https://)
+
 2.Install Dependencies:
 
     With Poetry:
