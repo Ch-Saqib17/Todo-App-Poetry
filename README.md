@@ -9,7 +9,9 @@ First Follow this github steps
     With Poetry:
         Open a terminal or command prompt.
         Navigate to the desired directory using the cd command (e.g., cd Desktop).
-        Run poetry new todo to create a new project named todo (you can customize the name). This initializes the project structure and creates a virtual environment (optional, depending on your Poetry configuration).
+        Run `poetry new todo` to create a new project named todo (you can customize the name). This initializes the project structure and creates a virtual environment (optional, depending on your Poetry configuration).
+        
+
 
     Without Poetry:
         Create a new directory using your preferred method (e.g., file explorer).
