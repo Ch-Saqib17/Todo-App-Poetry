@@ -1,6 +1,7 @@
 Steps
 First Follow this github steps
 [https://github.com/mkdeveloper/Installing_Poetry_on_windows_OS]
+
 1.Create a New Project (Poetry Recommended):
 
     With Poetry:
@@ -38,7 +39,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello, World!"}
+return {"message": "Hello, World!"}
 
 Use code with caution.
 
@@ -74,5 +75,3 @@ Additional Tips:
     Use data validation and input parsing with FastAPI features to make your API more robust.
     Explore features like dependency injection and middleware for advanced usage.
     Refer to the FastAPI documentation https://fastapi.tiangolo.com/ for comprehensive guidance.
-
-
