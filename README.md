@@ -92,8 +92,6 @@ Additional Tips:
 
 5.Activate Poetry Shell
 
-When the poetry shell is activate ,its give you a path.
-
 Write this command in cmd
 
 `poetry shell`
