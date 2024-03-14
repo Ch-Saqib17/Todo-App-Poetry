@@ -21,6 +21,8 @@ First Follow this github steps
 `poetry new todo`
 
 
+
+
 2.Install Dependencies:
 
     With Poetry:
@@ -48,7 +50,9 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
+
 async def root():
+
 return {"message": "Hello, World!"}
 
 Use code with caution.
@@ -85,3 +89,25 @@ Additional Tips:
     Use data validation and input parsing with FastAPI features to make your API more robust.
     Explore features like dependency injection and middleware for advanced usage.
     Refer to the FastAPI documentation https://fastapi.tiangolo.com/ for comprehensive guidance.
+
+5.Activate Poetry Shell
+
+When the poetry shell is activate ,its give you a path.
+
+Write this command in cmd
+
+`poetry shell`
+
+6.Open VS Code
+
+Press `Ctrl + Shift + p`
+
+Then Search interpreter
+
+->Select Python:Select Interpreter
+
+->Select Enter interpreter path 
+
+->Then paste the path you copied when you run poetry shell
+
+7.Now Your Shell Is Activated
